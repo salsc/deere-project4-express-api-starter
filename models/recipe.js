@@ -26,6 +26,10 @@ module.exports = (sequelize, DataTypes) => {
     strMeasure3: DataTypes.STRING,
     strMeasure4: DataTypes.STRING,
     strMeasure5: DataTypes.STRING,
+    txtDirections1: DataTypes.TEXT,
+    txtDirections2: DataTypes.TEXT,
+    txtDirections3: DataTypes.TEXT,
+    txtDirections4: DataTypes.TEXT,
     strRecipeImage: DataTypes.STRING
   }, {
     sequelize,

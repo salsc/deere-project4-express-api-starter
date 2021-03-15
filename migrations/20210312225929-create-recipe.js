@@ -44,6 +44,18 @@ module.exports = {
       strMeasure5: {
         type: Sequelize.STRING
       },
+      txtDirections1: {
+        type: Sequelize.TEXT
+      },
+      txtDirections2: {
+        type: Sequelize.TEXT
+      },
+      txtDirections3: {
+        type: Sequelize.TEXT
+      },
+      txtDirections4: {
+        type: Sequelize.TEXT
+      },
       strRecipeImage: {
         type: Sequelize.STRING
       },
